@@ -1,6 +1,6 @@
-1. Finding the number of digits of a given number :
+#1. Finding the number of digits of a given number :
   
- ITERATIVE METHOD
+ #ITERATIVE METHOD
  
 int countDigit(long n)
     {
@@ -13,9 +13,8 @@ int countDigit(long n)
     }
 
 
-OR
 
-RECURSIVE METHOD
+#RECURSIVE METHOD
 
 
 int countDigit(long n)
@@ -25,7 +24,7 @@ int countDigit(long n)
         return 1+ countDigit(n/10);
       }
 
-lOGARTHMIC METHOD
+#lOGARTHMIC METHOD
 
 int countDigit(long n)
 {
