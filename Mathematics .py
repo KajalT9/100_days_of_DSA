@@ -2,6 +2,8 @@
   
  #ITERATIVE METHOD
  
+ ==>
+
 int countDigit(long n)
     {
       int count = 0;
@@ -16,6 +18,7 @@ int countDigit(long n)
 
 #RECURSIVE METHOD
 
+==>
 
 int countDigit(long n)
       {
@@ -25,6 +28,7 @@ int countDigit(long n)
       }
 
 #lOGARTHMIC METHOD
+==>
 
 int countDigit(long n)
 {
