@@ -3,7 +3,7 @@ half = int(len( s1 ) /2)      #divide the string in two parts and check if they 
 if len(s1) % 2 == 0 :         #even
     first_Str  = s1[:half]
     second_Str  = s1[half:]
-else :                       #odd
+else :                        #odd
     first_Str = s1[:half]  
     second_Str = s1[half+1:]
 
